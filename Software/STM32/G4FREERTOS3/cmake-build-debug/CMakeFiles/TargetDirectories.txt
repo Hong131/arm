@@ -1,0 +1,3 @@
+I:/Matrix/Software/STM32/G4FREERTOS3/cmake-build-debug/CMakeFiles/G4FREERTOS3.elf.dir
+I:/Matrix/Software/STM32/G4FREERTOS3/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/Matrix/Software/STM32/G4FREERTOS3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

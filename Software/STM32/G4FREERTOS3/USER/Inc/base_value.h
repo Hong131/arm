@@ -1,0 +1,58 @@
+
+#ifndef __BASE_VALUE_H
+#define __BASE_VALUE_H
+#include "stm32g4xx_hal.h"
+
+
+//常用宏定义
+/* LED */
+#define LEDPIN GPIO_PIN_9
+#define LEDGROUP GPIOA
+
+
+/* KEY */
+#define KEY1PIN GPIO_PIN_5
+#define KEY1GROUP GPIOA
+#define KEY2PIN GPIO_PIN_6
+#define KEY2GROUP GPIOA
+#define KEY3PIN GPIO_PIN_7
+#define KEY3GROUP GPIOA
+#define KEY4PIN GPIO_PIN_0
+#define KEY4GROUP GPIOB
+
+
+/* PWM1 */
+#define PWMAPIN GPIO_PIN_0
+#define PWMAGROUP GPIOA
+#define PWMBPIN GPIO_PIN_1
+#define PWMBGROUP GPIOA
+#define PWMCPIN GPIO_PIN_2
+#define PWMCGROUP GPIOA
+
+#define PWMXGROUP GPIOA
+
+/* PWM2 */
+#define PWMA2PIN GPIO_PIN_6
+#define PWMA2GROUP GPIOA
+#define PWMB2PIN GPIO_PIN_7
+#define PWMB2GROUP GPIOA
+#define PWMC2PIN GPIO_PIN_8
+#define PWMC2GROUP GPIOA
+
+#define PWM2GROUP GPIOA
+
+#define SQRT3 1.732051 //根号三常量
+#define PI 3.1415926
+#define TIM2ARR 256
+
+//512 6.12   255 3.18s 128 1.78
+
+/* UART */
+#define UART1PIN_RX GPIO_PIN_10
+#define UART1PIN_TX GPIO_PIN_9
+#define UART1GROUP GPIOC
+
+
+
+
+#endif

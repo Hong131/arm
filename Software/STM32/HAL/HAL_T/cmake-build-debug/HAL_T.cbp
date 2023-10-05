@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HAL_T"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL_T.elf">
+				<Option output="I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/HAL_T.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32G474xx"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/User/Inc"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL_T.elf"/>
+					<CompileFile command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HAL_T.elf/fast">
+				<Option output="I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/HAL_T.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32G474xx"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include"/>
+					<Add directory="I:/Matrix/Software/STM32/HAL/HAL_T/User/Inc"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="h:\embedded\clion\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 HAL_T.elf/fast"/>
+					<CompileFile command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MINGW6~1/MinGW/bin/mingw32-make.exe -f &quot;I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc/dma.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc/gpio.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc/main.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc/stm32g4xx_hal_conf.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc/stm32g4xx_it.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Inc/usart.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/dma.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/gpio.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/main.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/stm32g4xx_hal_msp.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/stm32g4xx_hal_timebase_tim.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/stm32g4xx_it.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/syscalls.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/sysmem.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/system_stm32g4xx.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Src/usart.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Core/Startup/startup_stm32g474retx.s">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/DSP/Include/arm_common_tables.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/DSP/Include/arm_const_structs.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/DSP/Include/arm_math.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Device/ST/STM32G4xx/LICENSE.txt">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/LICENSE.txt">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/CMSIS/Lib/ARM/arm_cortexM4lf_math.lib">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/LICENSE.txt">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/STM32G474RETX_FLASH.ld">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/User/Inc/led.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/User/Inc/uart.h">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/User/Src/led.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/User/Src/uart.c">
+			<Option target="HAL_T.elf"/>
+		</Unit>
+		<Unit filename="I:/Matrix/Software/STM32/HAL/HAL_T/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

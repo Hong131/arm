@@ -1,0 +1,3 @@
+I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/CMakeFiles/HAL_T.elf.dir
+I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/Matrix/Software/STM32/HAL/HAL_T/cmake-build-debug/CMakeFiles/rebuild_cache.dir

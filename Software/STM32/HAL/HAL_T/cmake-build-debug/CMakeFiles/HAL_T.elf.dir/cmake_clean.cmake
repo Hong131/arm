@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/dma.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/gpio.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/main.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/stm32g4xx_hal_timebase_tim.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/stm32g4xx_it.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/syscalls.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/sysmem.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/system_stm32g4xx.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Core/Startup/startup_stm32g474retx.s.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/User/Src/led.c.obj"
+  "CMakeFiles/HAL_T.elf.dir/User/Src/uart.c.obj"
+  "HAL_T.elf"
+  "HAL_T.elf.manifest"
+  "HAL_T.elf.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/HAL_T.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
